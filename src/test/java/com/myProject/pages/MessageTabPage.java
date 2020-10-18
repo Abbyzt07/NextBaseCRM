@@ -44,4 +44,7 @@ public class MessageTabPage extends BasePage{
     @FindBy(id = "blog-submit-button-cancel")
     public WebElement cancelButton;
 
+    @FindBy(xpath = "(//div[@class='diskuf-uploader'])[1]")
+    public WebElement uploadFilesandImages;
+
 }
